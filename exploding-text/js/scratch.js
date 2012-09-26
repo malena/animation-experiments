@@ -23,10 +23,11 @@ $(document).ready(function(){
                     fontSize: 84,
                     top: newTop,
                     left:newLeft
-            },3000);
+            },1000);
             */
 
-            /* Tweenlite */
+            /* Tweenlite
+             */
             $(this).css({position: "relative", opacity: 1, fontSize: 60, top: 0, left: 0});
             TweenLite.to(this, 1, {css:{opacity:"0", fontSize:"84", top: newTop, left: newLeft}});
 
